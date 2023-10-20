@@ -1,0 +1,4 @@
+import pandas as pd
+data_descriptions = pd.read_csv('data_descriptions.csv')
+pd.set_option('display.max_colwidth', None)
+data_descriptions
